@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Action for opening patient records -->
+    <record id="action_wudasie_patient" model="ir.actions.act_window">
+        <field name="name">Patients</field>
+        <field name="res_model">wudasie.patient</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new patient
+            </p>
+        </field>
+    </record>
+
+    <!-- Tree view definition for the wudasie.patient model -->
+    <record id="view_wudasie_patient_tree" model="ir.ui.view">
+        <field name="name">wudasie.patient.tree</field>
+        <field name="model">wudasie.patient</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="age"/>
+                <field name="gender"/>
+                <field name="date_of_visit"/>
+                <field name="phone_number"/>
+                <field name="treated_doctor_id"/> <!-- Treated Doctor field -->
+                <field name="referred_institution_id"/> <!-- Referred Institution field -->
+                <field name="prescription"/>  <!-- Prescription field -->
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form view definition -->
+    <record id="view_wudasie_patient_form" model="ir.ui.view">
+        <field name="name">wudasie.patient.form</field>
+        <field name="model">wudasie.patient</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="gender"/>
+                        <field name="phone_number"/>
+                        <field name="date_of_visit"/>
+                        <field name="treated_doctor_id" domain="[('is_doctor', '=', True)]"/> <!-- Treated Doctor field with domain -->
+                        <field name="referred_institution_id"/> <!-- Referred Institution field -->
+                        <field name="prescription" filename="prescription_filename"/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter"> <!-- Corrected 'dv' to 'div' -->
+                    <field name="message_follower_ids" group="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+</odoo>

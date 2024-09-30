@@ -1,0 +1,44 @@
+2024-09-24 11:46:59,265 31898 INFO ? odoo: Odoo version 17.0 
+2024-09-24 11:46:59,266 31898 INFO ? odoo: Using configuration file at /home/fetun/Desktop/odoodev-main/odoo.conf 
+2024-09-24 11:46:59,266 31898 INFO ? odoo: addons paths: ['/home/fetun/Desktop/odoodev-main/odoo/addons', '/home/fetun/.local/share/Odoo/addons/17.0', '/home/fetun/Desktop/odoodev-main/addons'] 
+2024-09-24 11:46:59,266 31898 INFO ? odoo: database: default@default:default 
+2024-09-24 11:46:59,714 31898 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2024-09-24 11:47:00,109 31898 INFO ? odoo.service.server: HTTP service (werkzeug) running on fetun-HP-EliteBook-840-G3:8069 
+2024-09-24 11:47:00,134 31898 INFO fetun_db1r odoo.modules.loading: loading 1 modules... 
+2024-09-24 11:47:00,148 31898 INFO fetun_db1r odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-09-24 11:47:00,194 31898 INFO fetun_db1r odoo.modules.loading: updating modules list 
+2024-09-24 11:47:00,198 31898 INFO fetun_db1r odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-09-24 11:47:01,895 31898 WARNING fetun_db1r odoo.modules.module: Missing `license` key in manifest for 'wudasie_diagnostic_center', defaulting to LGPL-3 
+2024-09-24 11:47:01,900 31898 WARNING fetun_db1r odoo.modules.loading: invalid module names, ignored: wdc_module 
+2024-09-24 11:47:01,925 31898 INFO fetun_db1r odoo.modules.loading: loading 54 modules... 
+2024-09-24 11:47:02,806 31898 INFO fetun_db1r odoo.modules.loading: 54 modules loaded in 0.88s, 0 queries (+0 extra) 
+2024-09-24 11:47:04,142 31898 INFO fetun_db1r odoo.modules.loading: Modules loaded. 
+2024-09-24 11:47:04,183 31898 INFO fetun_db1r odoo.modules.registry: Registry loaded in 4.075s 
+2024-09-24 11:47:04,197 31898 INFO fetun_db1r odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-09-24 11:47:04,243 31898 INFO fetun_db1r werkzeug: 127.0.0.1 - - [24/Sep/2024 11:47:04] "GET /websocket HTTP/1.1" 101 - 7 0.007 3.755
+2024-09-24 11:47:04,272 31898 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-09-24 11:47:24,945 31898 INFO fetun_db1r odoo.service.server: Initiating shutdown 
+2024-09-24 11:47:24,946 31898 INFO fetun_db1r odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-09-24 11:47:25,073 31898 INFO fetun_db1r odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
+2024-09-24 11:47:37,245 32014 INFO ? odoo: Odoo version 17.0 
+2024-09-24 11:47:37,246 32014 INFO ? odoo: Using configuration file at /home/fetun/Desktop/odoodev-main/odoo.conf 
+2024-09-24 11:47:37,246 32014 INFO ? odoo: addons paths: ['/home/fetun/Desktop/odoodev-main/odoo/addons', '/home/fetun/.local/share/Odoo/addons/17.0', '/home/fetun/Desktop/odoodev-main/addons'] 
+2024-09-24 11:47:37,246 32014 INFO ? odoo: database: default@default:default 
+2024-09-24 11:47:37,463 32014 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2024-09-24 11:47:37,849 32014 INFO ? odoo.service.server: HTTP service (werkzeug) running on fetun-HP-EliteBook-840-G3:8069 
+2024-09-24 11:47:37,875 32014 INFO fetun_db1r odoo.modules.loading: loading 1 modules... 
+2024-09-24 11:47:37,891 32014 INFO fetun_db1r odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-09-24 11:47:37,934 32014 INFO fetun_db1r odoo.modules.loading: updating modules list 
+2024-09-24 11:47:37,938 32014 INFO fetun_db1r odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-09-24 11:47:39,535 32014 WARNING fetun_db1r odoo.modules.module: Missing `license` key in manifest for 'wudasie_diagnostic_center', defaulting to LGPL-3 
+2024-09-24 11:47:39,539 32014 WARNING fetun_db1r odoo.modules.loading: invalid module names, ignored: wdc_module 
+2024-09-24 11:47:39,561 32014 INFO fetun_db1r odoo.modules.loading: loading 54 modules... 
+2024-09-24 11:47:40,432 32014 INFO fetun_db1r odoo.modules.loading: 54 modules loaded in 0.87s, 0 queries (+0 extra) 
+2024-09-24 11:47:41,680 32014 INFO fetun_db1r odoo.modules.loading: Modules loaded. 
+2024-09-24 11:47:41,701 32014 INFO fetun_db1r odoo.modules.registry: Registry loaded in 3.853s 
+2024-09-24 11:47:41,716 32014 INFO fetun_db1r odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-09-24 11:47:41,761 32014 INFO fetun_db1r werkzeug: 127.0.0.1 - - [24/Sep/2024 11:47:41] "GET /websocket HTTP/1.1" 101 - 7 0.007 3.544
+2024-09-24 11:47:41,876 32014 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-09-24 11:47:55,996 32014 INFO fetun_db1r odoo.service.server: Initiating shutdown 
+2024-09-24 11:47:55,996 32014 INFO fetun_db1r odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-09-24 11:47:56,301 32014 INFO fetun_db1r odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  

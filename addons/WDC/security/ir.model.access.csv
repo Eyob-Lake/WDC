@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_wudasie_patient,access_wudasie_patient,model_wudasie_patient,base.group_user,1,1,1,1
+access_wudasie_patient_manager,access_wudasie_patient_manager,model_wudasie_patient,base.group_system,1,1,1,1
